@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  text-decoration: none;
 }
 
   $fontlight: "Roboto-Light", sans-serif;
@@ -9,54 +10,239 @@
   $fontthin: "Roboto-Thin", sans-serif;
   $fontbold: "Roboto-Bold", sans-serif;
   $fontblack: "Roboto-Black", sans-serif;
+  $fontregular: "Roboto-Regular", sans-serif;
 
-
-.header {
-  background: url("img/bg1.jpeg") no-repeat center/cover;
+.firstScreen {
+  background: url("img/bg1.jpg") no-repeat center/cover;
 
   .container {
     min-height: 800px;
     width: 100%;
 
-    .header-logo {
+    .firstScreen-logo {
       align-items: center;
       display: flex;
       flex-direction: column;
       padding-top: 39px;
 
-      .header-logo__image {
-        width: 6%;
+      .firstScreen-logo__image {
+        width: 6.5%;
       }
 
-      .header-logo__text {
-        color:#FFFFFF;
+      .firstScreen-logo__text {
         font-family: $fontmedium;
         font-size: 15px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 24px;
+        letter-spacing: normal;
         text-align: center;
+        color: #ffffff;
         text-transform: uppercase;
-        padding-top: 14px;
+        padding-top: 9px;
+        margin-bottom: 53px;
 
       }
     }
 
-    .header-main {
-      .header-main__title-h2 {}
-      .header-main__line {}
-      .header-main__title-h1 {}
-      .header-main__line {}
-      .header-main__title-h2 {}
-      .header-main__text {
-        span.decorate {}
+    .firstScreen-main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .firstScreen-main__title-h2 {
+        font-family: $fontblack;
+        font-size: 41px;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 24px;
+        letter-spacing: normal;
+        text-align: center;
+        color: #f9bf3b;
+        text-transform: uppercase;
       }
-      .header-main__btn {}
+      .firstScreen-main__line {}
+
+      .firstScreen-main__title-h1 {
+        width: 520px;
+        height: 104px;
+        font-family: $fontblack;
+        font-size: 80px;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 89px;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+        text-transform: uppercase;
+        margin-bottom: 17px;
+        padding-top: 15px;
+      }
+      .firstScreen-main__line {}
+
+      .firstScreen-main__text {
+        width: 86.9%;
+        font-family: $fontlight;
+        font-size: 21px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 28px;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+        margin-top: 25px;
+        min-height: 148px;
+        .decorate {
+          font-family:$fontbold;
+          font-weight: bold;
+          color: #f9bf3b;
+        }
+      }
+      .btn {
+        display: inline-block;
+        width: 325px;
+        height: 84px;
+        font-family: $fontlight ;
+        font-size: 21px;
+        font-weight: normal;
+        font-stretch: condensed;
+        font-style: normal;
+        line-height: 24px;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+        box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
+        cursor: pointer;
+        border: 4px solid rgba(0,0,0, 0.18);
+        border-radius: 10px;
+        background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
+        text-transform: uppercase;
+        padding: 26px 15px 33px;
+        outline: none;
+        text-shadow: -0.7px -0.7px 0 rgba(0, 0, 0, 0.22);
+        margin-bottom: 62px;
+      }
       .block-link {}
-      .block-link__info {}
+      .block-link__info {
+        color: #ffffff;
+        font-family: $fontthin;
+        font-size: 15px;
+        font-stretch: normal;
+        font-style: normal;
+        font-weight: 100;
+        letter-spacing: normal;
+        line-height: 24px;
+        text-align: center;
+        text-transform: uppercase;
+
+      }
       .block-link__a {
-        img.block-link__img {}
+        margin-top: 9px;
+        block-link__img {
+          width: 30px;
+          height: 19px;
+
+        }
       }
     }
   }
 }
+.line__left {
+  position: relative;
+  width: 292px;
+  right: 432px;
+  top: 60px;
+}
+
+.line__right {
+
+  position: relative;
+  width: 292px;
+  left: 432px;
+  bottom: 60px;
+}
+
+.details {
+    background-color: #efefef;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5.3%;
+    padding-bottom: 6.3%;
+  .details__title {
+    font-family: $fontregular;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #252525;
+
+  }
+  .line-center {
+    width: 217px;
+    height: 4px;
+    background-color: #f9bf3b;
+    text-align: center;
+    margin-top: 11%;
+  }
+  .info-text {
+    font-family: $fontregular;
+    font-size: 23px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4a4a4a;
+    margin-top: 8px;
+  }
+  .details__items {
+    display: flex;
+    justify-content: center;
+    width: 86%;
+    flex-wrap: wrap;
+
+
+    .details__item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 31.2%;
+      .details__image {
+        margin-top: 14%;
+      }
+      .details__text {
+
+        font-family: $fontlight;
+        font-size: 15px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 21px;
+        letter-spacing: normal;
+        text-align: center;
+        color: #4a4a4a;
+        margin-top: 8%;
+      }
+    }
+    }
+  }
+
+.details__item:nth-child(2) {
+  margin: 0 2.5%;
+}
+
+
+
+
+
 
 @font-face {
   font-family: "Roboto-Light";
@@ -88,6 +274,13 @@
 @font-face {
   font-family: "Roboto-Black";
   src: url("fonts/Roboto-Black.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("fonts/Roboto-Regular.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
