@@ -5,15 +5,15 @@
   text-decoration: none; }
 
 .firstScreen {
-  background: url("img/bg1.jpg") no-repeat center/cover; }
+  background: url("img/bg1.jpg") no-repeat center/cover;
+  padding-top: 2.6%;
+  padding-bottom: 4.2%; }
   .firstScreen .container {
-    min-height: 800px;
     width: 100%; }
     .firstScreen .container .firstScreen-logo {
       align-items: center;
       display: flex;
-      flex-direction: column;
-      padding-top: 39px; }
+      flex-direction: column; }
       .firstScreen .container .firstScreen-logo .firstScreen-logo__image {
         width: 6.5%; }
       .firstScreen .container .firstScreen-logo .firstScreen-logo__text {
@@ -45,8 +45,6 @@
         color: #f9bf3b;
         text-transform: uppercase; }
       .firstScreen .container .firstScreen-main .firstScreen-main__title-h1 {
-        width: 520px;
-        height: 104px;
         font-family: "Roboto-Black", sans-serif;
         font-size: 80px;
         font-weight: 900;
@@ -60,7 +58,7 @@
         margin-bottom: 17px;
         padding-top: 15px; }
       .firstScreen .container .firstScreen-main .firstScreen-main__text {
-        width: 86.9%;
+        width: 69.7%;
         font-family: "Roboto-Light", sans-serif;
         font-size: 21px;
         font-weight: 300;
@@ -76,29 +74,6 @@
           font-family: "Roboto-Bold", sans-serif;
           font-weight: bold;
           color: #f9bf3b; }
-      .firstScreen .container .firstScreen-main .btn {
-        display: inline-block;
-        width: 325px;
-        height: 84px;
-        font-family: "Roboto-Light", sans-serif;
-        font-size: 21px;
-        font-weight: normal;
-        font-stretch: condensed;
-        font-style: normal;
-        line-height: 24px;
-        letter-spacing: normal;
-        text-align: center;
-        color: #ffffff;
-        box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
-        cursor: pointer;
-        border: 4px solid rgba(0, 0, 0, 0.18);
-        border-radius: 10px;
-        background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
-        text-transform: uppercase;
-        padding: 26px 15px 33px;
-        outline: none;
-        text-shadow: -0.7px -0.7px 0 rgba(0, 0, 0, 0.22);
-        margin-bottom: 62px; }
       .firstScreen .container .firstScreen-main .block-link__info {
         color: #ffffff;
         font-family: "Roboto-Thin", sans-serif;
@@ -121,6 +96,30 @@
   width: 292px;
   right: 432px;
   top: 60px; }
+
+.btn {
+  display: inline-block;
+  width: 325px;
+  height: 84px;
+  font-family: "Roboto-Light", sans-serif;
+  font-size: 21px;
+  font-weight: normal;
+  font-stretch: condensed;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
+  cursor: pointer;
+  border: 4px solid rgba(0, 0, 0, 0.18);
+  border-radius: 10px;
+  background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
+  text-transform: uppercase;
+  padding: 26px 15px 33px;
+  outline: none;
+  text-shadow: -0.7px -0.7px 0 rgba(0, 0, 0, 0.22);
+  margin-bottom: 62px; }
 
 .line__right {
   position: relative;
@@ -145,12 +144,6 @@
     letter-spacing: normal;
     text-align: center;
     color: #252525; }
-  .details .line-center {
-    width: 217px;
-    height: 4px;
-    background-color: #f9bf3b;
-    text-align: center;
-    margin-top: 11%; }
   .details .info-text {
     font-family: "Roboto-Regular", sans-serif;
     font-size: 23px;
@@ -164,13 +157,13 @@
   .details .details__items {
     display: flex;
     justify-content: center;
-    width: 86%;
+    width: 59.43%;
     flex-wrap: wrap; }
     .details .details__items .details__item {
       display: flex;
       flex-direction: column;
       align-items: center;
-      width: 31.2%; }
+      width: 31.63%; }
       .details .details__items .details__item .details__image {
         margin-top: 14%; }
       .details .details__items .details__item .details__text {
@@ -185,8 +178,124 @@
         color: #4a4a4a;
         margin-top: 8%; }
 
+.line-center {
+  width: 217px;
+  height: 4px;
+  background-color: #f9bf3b;
+  text-align: center;
+  margin-top: 1%; }
+
 .details__item:nth-child(2) {
-  margin: 0 2.5%; }
+  margin: 0 2.55%; }
+
+.thirdScreen {
+  padding-top: 2.5%; }
+  .thirdScreen .thirdScreen__wrapper {
+    display: flex;
+    padding-left: 7.82%; }
+    .thirdScreen .thirdScreen__wrapper .thirdScreen-textBlock {
+      transform: translateX(-239px); }
+      .thirdScreen .thirdScreen__wrapper .thirdScreen-textBlock .thirdScreen-textBlock__title {
+        color: #299cbd;
+        font-family: "Roboto-Black", sans-serif;
+        font-size: 30px;
+        font-stretch: normal;
+        font-style: normal;
+        font-weight: 900;
+        letter-spacing: normal;
+        text-align: left;
+        margin-top: 2.8%; }
+      .thirdScreen .thirdScreen__wrapper .thirdScreen-textBlock .thirdScreen-textBlock__text {
+        font-family: "Roboto-Light", sans-serif;
+        font-size: 17px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #4a4a4a;
+        width: 83.2%;
+        line-height: 27px;
+        margin-top: 1%; }
+        .thirdScreen .thirdScreen__wrapper .thirdScreen-textBlock .thirdScreen-textBlock__text:first-child {
+          margin-top: 2.5%; }
+        .thirdScreen .thirdScreen__wrapper .thirdScreen-textBlock .thirdScreen-textBlock__text .decorate__bold {
+          font-family: "Roboto-Bold", sans-serif;
+          font-weight: bold; }
+
+.learning {
+  background: url("img/bg.jpeg") no-repeat center/cover;
+  padding: 3.8% 0 3.1% 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .learning .learning__title {
+    font-family: "Roboto-Regular", sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #efefef;
+    text-transform: uppercase; }
+  .learning .items {
+    display: flex;
+    width: 61.3%;
+    justify-content: space-between; }
+    .learning .items .item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 17%; }
+      .learning .items .item:first-child .item-image {
+        background: #b4e2ff url("img/leaningitem.png") no-repeat -2.5% 50%; }
+      .learning .items .item:nth-child(2) .item-image {
+        background: #b4e2ff url("img/leaningitem.png") no-repeat 24% 50%; }
+      .learning .items .item:nth-child(3) .item-image {
+        background: #b4e2ff url("img/leaningitem.png") no-repeat 50% 50%; }
+      .learning .items .item:nth-child(4) .item-image {
+        background: #b4e2ff url("img/leaningitem.png") no-repeat 76.5% 50%; }
+      .learning .items .item:nth-child(5) .item-image {
+        background: #b4e2ff url("img/leaningitem.png") no-repeat 103% 50%; }
+      .learning .items .item .item-image {
+        width: 115px;
+        height: 115px;
+        border-radius: 50%;
+        margin-top: 14%; }
+      .learning .items .item .item-text {
+        font-family: "Roboto-Light", sans-serif;
+        font-size: 17px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 20px;
+        letter-spacing: normal;
+        text-align: center;
+        color: #efefef;
+        margin-top: 9%; }
+
+.box {
+  background-color: #efefef;
+  padding: 4.5% 0 4.3% 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+  .box .box__text {
+    font-family: "Roboto-Regular", sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 43px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #252525;
+    width: 59.3%;
+    margin-top: 1.6%; }
+
+.box__btn-margin {
+  margin-top: 3.2%; }
 
 @font-face {
   font-family: "Roboto-Light";
