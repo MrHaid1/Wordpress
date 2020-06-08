@@ -297,6 +297,77 @@
 .box__btn-margin {
   margin-top: 3.2%; }
 
+.timeStart {
+  padding: 4.5% 0 4% 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .timeStart .timeStart__text {
+    font-family: "Roboto-Regular", sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #252525;
+    margin-top: 1.6%; }
+  .timeStart .timeStart__time-text {
+    font-family: "Roboto-Black", sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #299cbd;
+    text-transform: uppercase;
+    margin-top: 1%; }
+  .timeStart .timeStart__info-text {
+    font-family: "Roboto-Regular", sans-serif;
+    font-size: 23px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4a4a4a;
+    margin-top: 1%; }
+
+.footer {
+  background-color: #1a1a1a;
+  text-align: center;
+  padding: 2.9% 0 3.5% 0; }
+  .footer .footer_link {
+    text-decoration: underline;
+    font-family: "Roboto-Light", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #888888; }
+  .footer .footer__phone {
+    font-family: "Roboto-Light", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #888888; }
+
+.symbol {
+  font-family: "Roboto-Light", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #888888; }
+
 @font-face {
   font-family: "Roboto-Light";
   src: url("fonts/Roboto-Light.ttf") format("truetype");
