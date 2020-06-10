@@ -129,7 +129,6 @@
 
 .details {
   background-color: #efefef;
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -368,6 +367,197 @@
   text-align: center;
   color: #888888; }
 
+.thirdScreen__image {
+  width: 100%;
+  height: 100%; }
+
+@media (max-width: 1440px) {
+  .firstScreen .container .firstScreen-main .firstScreen-main__text {
+    width: 83%; }
+
+  .details .details__items {
+    width: 85%; }
+
+  .thirdScreen .thirdScreen__wrapper .thirdScreen-textBlock .thirdScreen-textBlock__title {
+    width: 100%; }
+
+  .thirdScreen .thirdScreen__wrapper .thirdScreen-textBlock .thirdScreen-textBlock__text {
+    width: 100%;
+    line-height: 22px;
+    font-size: 14px; }
+
+  .thirdScreen__image {
+    display: none; }
+
+  .thirdScreen .thirdScreen__wrapper {
+    padding-left: 4%; }
+
+  .learning .items {
+    width: 74%; }
+
+  .box .box__text {
+    width: 56.3%; } }
+@media (max-width: 1024px) {
+  .line__left {
+    width: 185px;
+    right: 380px; }
+
+  .line__right {
+    width: 185px;
+    left: 380px; }
+
+  .firstScreen .container .firstScreen-main .firstScreen-main__text {
+    width: 95%; }
+
+  .details .details__items {
+    width: 100%; }
+
+  .details .details__items .details__item {
+    width: 37%; }
+
+  .thirdScreen .thirdScreen__wrapper .thirdScreen-textBlock {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    transform: translateX(20px); }
+
+  .thirdScreen .thirdScreen__wrapper .thirdScreen-textBlock .thirdScreen-textBlock__title {
+    width: 100%; }
+
+  .thirdScreen .thirdScreen__wrapper .thirdScreen-textBlock .thirdScreen-textBlock__text {
+    width: 100%;
+    line-height: 22px;
+    font-size: 14px; }
+
+  .thirdScreen__image {
+    width: 50%; }
+
+  .thirdScreen .thirdScreen__wrapper {
+    padding-left: 4%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 8%;
+    background: url("img/women.png") no-repeat 0 0;
+    background-size: 77%; }
+
+  .learning .items {
+    width: 74%; }
+
+  .box .box__text {
+    width: 56.3%; } }
+@media (max-width: 768px) {
+  .firstScreen .container .firstScreen-main .firstScreen-main__title-h2 {
+    font-size: 35px; }
+
+  .line__left {
+    width: 96px;
+    right: 321px; }
+
+  .line__right {
+    width: 96px;
+    left: 321px; }
+
+  .firstScreen .container .firstScreen-main .firstScreen-main__text {
+    width: 95%; }
+
+  .details .details__items {
+    width: 100%; }
+
+  .details .details__items .details__item {
+    width: 46%; }
+
+  .thirdScreen .thirdScreen__wrapper .thirdScreen-textBlock {
+    width: 94%;
+    display: flex;
+    flex-direction: column;
+    transform: translateX(20px); }
+
+  .thirdScreen .thirdScreen__wrapper .thirdScreen-textBlock .thirdScreen-textBlock__title {
+    width: 100%; }
+
+  .thirdScreen .thirdScreen__wrapper .thirdScreen-textBlock .thirdScreen-textBlock__text {
+    width: 100%;
+    line-height: 22px;
+    font-size: 14px; }
+
+  .thirdScreen__image {
+    width: 50%; }
+
+  .thirdScreen .thirdScreen__wrapper {
+    padding-left: 4%;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 8%;
+    background: url("img/women.png") no-repeat 0 0;
+    background-size: 77%; }
+
+  .learning .items {
+    width: 90%; }
+
+  .box .box__text {
+    width: 80.3%; } }
+@media (max-width: 425px) {
+  .firstScreen .container .firstScreen-main .firstScreen-main__title-h2 {
+    font-size: 24px; }
+
+  .firstScreen .container .firstScreen-main .firstScreen-main__title-h1 {
+    font-size: 68px; }
+
+  .line__left {
+    display: none; }
+
+  .line__right {
+    display: none; }
+
+  .firstScreen .container .firstScreen-main .firstScreen-main__text {
+    width: 80%; }
+
+  .btn {
+    font-size: 16px;
+    width: 256px;
+    height: 77px; }
+
+  .details .details__items {
+    width: 50%; }
+
+  .details .details__items .details__item {
+    width: 150%; }
+
+  .thirdScreen .thirdScreen__wrapper .thirdScreen-textBlock {
+    width: 94%;
+    display: flex;
+    flex-direction: column;
+    transform: translateX(20px); }
+
+  .thirdScreen .thirdScreen__wrapper .thirdScreen-textBlock .thirdScreen-textBlock__title {
+    width: 100%; }
+
+  .thirdScreen .thirdScreen__wrapper .thirdScreen-textBlock .thirdScreen-textBlock__text {
+    width: 100%;
+    line-height: 22px;
+    font-size: 14px; }
+
+  .thirdScreen__image {
+    width: 50%; }
+
+  .thirdScreen .thirdScreen__wrapper {
+    padding-left: 4%;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 8%;
+    background: none; }
+
+  .learning .items {
+    width: 90%;
+    flex-wrap: wrap; }
+
+  .learning .items .item {
+    width: 47%; }
+    .learning .items .item:last-child {
+      margin: auto; }
+
+  .box .box__text {
+    width: 80.3%; } }
 @font-face {
   font-family: "Roboto-Light";
   src: url("fonts/Roboto-Light.ttf") format("truetype");
